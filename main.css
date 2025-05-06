@@ -65,24 +65,18 @@ header #logo {
 
 #top-container {
     background-color: lightgoldenrodyellow;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    row-gap: 150px;
+    padding: 100px 10px 100px 100px;
 }
 
-#top-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 100px 10px;
-}
-
-#top-message {
-    margin-left: 100px;
-}
-
-#top-message h1 {
+#top-container h1 {
     font-size: 40px;
 }
 
-#top-message p {
+#top-container article {
     font-size: 20px;
     margin: 30px 0;
 
@@ -105,6 +99,17 @@ header #logo {
 #menu-button {
     background-color: white;
     border: 1px solid rgb(118, 60, 38);
+}
+
+#top-title-2 {
+    align-content: center;
+    margin: 50px;
+    border-right: 1px solid black;
+    height: 100px;
+}
+
+#top-message-2 {
+    align-content: center;
 }
 
 #top-images {
