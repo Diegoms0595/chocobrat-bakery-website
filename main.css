@@ -62,3 +62,74 @@ header #logo {
     color: white;
     background-color: rgb(118, 60, 38);
 }
+
+#top-container {
+    background-color: lightgoldenrodyellow;
+}
+
+#top-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 10px;
+}
+
+#top-message {
+    margin-left: 100px;
+}
+
+#top-message h1 {
+    font-size: 40px;
+}
+
+#top-message p {
+    font-size: 20px;
+    margin: 30px 0;
+
+}
+
+#top-message button {
+    font-size: 15px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#order-button {
+    border: none;
+    background-color: rgb(118, 60, 38);
+    color: white;
+}
+
+#menu-button {
+    background-color: white;
+    border: 1px solid rgb(118, 60, 38);
+}
+
+#top-images {
+    position: absolute;
+    top: 550px;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 50px;
+    background-color: white;
+    opacity: 0.7;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;    
+}
+
+#top-images img {
+    width: 200px;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+#top-images-paging {
+    display: flex;
+    opacity: 1;
+    gap: 10px;
+}
