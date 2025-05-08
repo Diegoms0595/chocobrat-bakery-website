@@ -138,3 +138,50 @@ header #logo {
     opacity: 1;
     gap: 10px;
 }
+
+#second-card {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 350px;
+    grid-template-rows: repeat(3, auto);
+    overflow-x: auto;
+    column-gap: 10px;
+    padding-left: 100px;
+    margin: 30px;
+}
+
+#second-card img {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+#second-card p.cake-name {
+    margin: 10px;
+    font-weight: bold;
+}
+
+#second-card p.cake-rating {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#second-card span.cake-score {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+#second-container #view-more-button {
+    justify-self: center;
+    margin: 20px;
+}
+
+#second-container #view-more-button button {
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    background-color: white;
+    border: 1px solid rgb(118, 60, 38);
+    color: rgb(118, 60, 38);
+}
