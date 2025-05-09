@@ -4,47 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chocobrat-bakery-website</title>
+    <link rel="stylesheet" href="akane.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <header>
+        <div id="logo">
+            <p>Chocobrat</p>
+        </div>
+        <div id="right-header">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="categories.html">Ctegories</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div id="functions">
+                <form action="search">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <a href="user.html"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
     <main>
-
-        <section class="section1">
-            <img id="pic1" src="./Assets/pexels-catscoming-1359330.jpg" alt="picleft"> 
+        <section id="top-container">
+            <div id="top-message">
+                <h1>Bring you Happiness<br>through a piece of cake</h1>
+                <article>We make Diffrent type of cakes, chocolate,<br>soft cookies, cheesecake pie or anything<br>you want.</article>
+                <div>
+                    <button type="submit" id="order-button">Order Now</button>
+                    <button type="submit" id="menu-button">See All Menus</button>
+                </div>
+            </div>
             <div>
-                <p id="title1">We Bake for you fresh from the oven</p>
-                <p>We Bake for you Fresh From the oven. We use quality materials that we get directly from farmers. Our bakers are experienced people in the food sector. So that the products we produce are guaranteed quality and taste. It's so delicious, you have to try it!</p>
-                <p>Read More</p>
+                <img src="images/top-chococake.png" alt="Chocolate cake">
+            </div>
+            <div id="top-title-2">
+                <h1>Try Our Best Selling</h1>
+            </div>
+            <div id="top-message-2">
+                <article>Here's our best creations that everyone loves. Lightness and<br>sweetness of the cake make you want more and more. Start<br>from cake, bread and other creations.</article>
+            </div>
+            <div id="top-image-container">
+                <div id="top-images-paging"> 
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <p>01/12</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div id="top-image">
+                    <img src="images/cake1.jpg" alt="Cake">
+                    <img src="images/cake2.jpg" alt="Cake">
+                    <img src="images/cake3.jpg" alt="Cake">
+                    <img src="images/cake3.jpg" alt="Cake">
+                    <img src="images/cake3.jpg" alt="Cake">
+                    <img src="images/cake3.jpg" alt="Cake">
+                </div>
             </div>
         </section>
-        
-        <section class="section2">
-            <img id="pic2" src="./Assets/pexels-marta-dzedyshko-1042863-2067436.jpg" alt="picright">
-            <div>
-                <p id="title2">Come and choose your favourites</p> 
-                <p>Come and choose your favourites. Try to come to our shop directly to enjoy the delicious taste of the cake that just came out of the oven. While enjoying it with a cup of coffee or tea in our very convenient shop. Very suitable for chatting, meeting with your team.</p>
-                <p>Read More</p>
+        <section id="second-container">
+            <div id="second-card">
+                <img src="images/cake4.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+                <img src="images/cake5.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+                <img src="images/cake6.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+                <img src="images/cake7.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+                <img src="images/cake8.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+                <img src="images/cake9.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+                <img src="images/cake10.jpg" alt="Cake">
+                <p class="cake-name">Red Velvet & Cream Cheese ( 500g )</p>
+                <p class="cake-rating">⭐︎⭐︎⭐︎⭐︎⭐︎<span class="cake-score">4.0Rating</span></p>
+            </div>
+            <div id="view-more-button">
+                <button type="submit">View More →</button>
             </div>
         </section>
+        <div id="diego">
+            <section class="section1">
+                <img id="pic1" src="./Assets/pexels-catscoming-1359330.jpg" alt="picleft"> 
+                <div>
+                    <p id="title1">We Bake for you fresh from the oven</p>
+                    <p>We Bake for you Fresh From the oven. We use quality materials that we get directly from farmers. Our bakers are experienced people in the food sector. So that the products we produce are guaranteed quality and taste. It's so delicious, you have to try it!</p>
+                    <p>Read More</p>
+                </div>
+            </section>
+            
+            <section class="section2">
+                <img id="pic2" src="./Assets/pexels-marta-dzedyshko-1042863-2067436.jpg" alt="picright">
+                <div>
+                    <p id="title2">Come and choose your favourites</p> 
+                    <p>Come and choose your favourites. Try to come to our shop directly to enjoy the delicious taste of the cake that just came out of the oven. While enjoying it with a cup of coffee or tea in our very convenient shop. Very suitable for chatting, meeting with your team.</p>
+                    <p>Read More</p>
+                </div>
+            </section>
 
-        <section id="seccion3">
-            <p id="title4">For cake orders above 1KG</p>
-            <p id="title3">Please visit our nearest store or call us at +91 000 0000 (10 AM to 7PM)</p>
-            <p>to place your order</p>
-            <button type="submit">Contact us now</button>
-        </section>
+            <section id="seccion3">
+                <p id="title4">For cake orders above 1KG</p>
+                <p id="title3">Please visit our nearest store or call us at +91 000 0000 (10 AM to 7PM)</p>
+                <p>to place your order</p>
+                <button type="submit">Contact us now</button>
+            </section>
 
-        <section>
-            <div>
-                <p>Quotes</p>
-                <p>The eggless cakes here are really good. Had ordered a kitkat cake which was really good. Surely worth a try.</p>
-                <img src="./Assets/60b26de3e6c75800045089a2.png" alt="portpic">
-                <p>Darren Dunlap</p>
-                <p>CEO & founder at Flex.co</p>
-            </div>
-        </section>
+            <section>
+                <div>
+                    <p>Quotes</p>
+                    <p>The eggless cakes here are really good. Had ordered a kitkat cake which was really good. Surely worth a try.</p>
+                    <img src="./Assets/60b26de3e6c75800045089a2.png" alt="portpic">
+                    <p>Darren Dunlap</p>
+                    <p>CEO & founder at Flex.co</p>
+                </div>
+            </section>
+        </div>
     </main>
-
     <footer>
         <div class="footer-top">
             <h2>Chocobrat</h2>
@@ -67,7 +152,6 @@
                 <img src="./Assets/Twitter - Negative.png" alt="Twitter">
             </div>
         </div>
-    </footer>
-    
+    </footer>    
 </body>
 </html>

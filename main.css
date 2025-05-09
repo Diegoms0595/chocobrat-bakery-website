@@ -6,8 +6,8 @@ body {
     padding: 0; 
 }
 
-main {
-    max-width: 1200px;
+#diego {
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 0;
 }
@@ -20,7 +20,7 @@ main {
     margin: 0%;
 }
 
-section {
+#diego section {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -42,7 +42,7 @@ section {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-section p {
+#diego section p {
     font-size: 1.1rem;
     line-height: 1.5;
     flex: 1;
@@ -72,7 +72,7 @@ section p {
     font-size: xx-large;
 }
 
-button {
+#diego button {
     background-color: #643809;
     color: white;
     border: none;
@@ -80,24 +80,24 @@ button {
     border-radius: 10px;
 }
 
-section:last-of-type {
+#diego section:last-of-type {
     text-align: center;
     margin: 40px auto;
     max-width: 600px;
 }
 
-section:last-of-type div {
+#diego section:last-of-type div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section:last-of-type p {
+#diego section:last-of-type p {
     margin: 10px 0;
     line-height: 1.5;
 }
 
-section:last-of-type img {
+#diego section:last-of-type img {
     width: 80px;
     height: auto;
     margin: 15px 0;
